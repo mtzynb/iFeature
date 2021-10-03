@@ -1,18 +1,22 @@
-//---------------------  ******** 4.9	Composition of k-Spaced Amino Acid Group Pairs (CKSAAGP) ********--------------------------
-CD-hit 100 % failed ---> Error: all the sequence length should be greater than the (gap value) + 2 = 7
+//  ******** 4.9 Composition of k-Spaced Amino Acid Group Pairs (CKSAAGP) with k =0 to 5 ********
+all the sequence length should be greater than the (gap value) + 2 = 7
+//---------------------------------------------------
+there are 5 groups:
+aliphatic group (g1: GAVLMI),
+aromatic group (g2: FYW),
+positive charge group (g3: KRH),
+negative charged group (g4: DE) and
+uncharged group (g5: STCPNQ).
+//---------------------------------------------------
+ f-vector size: 25 *6 = 150 (for k = 0,1,2,3,4,5,6)
+//---------------------------------------------------
+
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type CKSAAGP --out my_codes/features/iFeature/round2/CKSAAGP/CKSAAGP_100_mixed_train.tsv
 
 //---------------------------------------------------
-python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_90_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_90_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_90_mixed.tsv
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type CKSAAGP --out my_codes/features/iFeature/round2/CKSAAGP/CKSAAGP_90_mixed_train.tsv
 
 //---------------------------------------------------
-python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_80_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_80_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_80_mixed.tsv
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type CKSAAGP --out my_codes/features/iFeature/round2/CKSAAGP/CKSAAGP_80_mixed_train.tsv
 
 //---------------------------------------------------

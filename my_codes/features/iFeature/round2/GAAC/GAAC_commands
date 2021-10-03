@@ -1,23 +1,19 @@
 //---------------------  ******** Grouped Amino Acid Composition (GAAC) ********--------------------------
+there are 5 groups:
+aliphatic group (g1: GAVLMI),
+aromatic group (g2: FYW),
+positive charge group (g3: KRH),
+negative charged group (g4: DE) and
+uncharged group (g5: STCPNQ).
 
-python iFeature.py --file my_codes/split_data/ACP_100_pos.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_100_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_100_neg.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_100_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-100.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_100_mixed.tsv
+f-vector size = 5
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type GAAC --out my_codes/features/iFeature/round2/GAAC/GAAC_100_mixed_train.tsv
 
 //---------------------------------------------------
-python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_90_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_90_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_90_mixed.tsv
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type GAAC --out my_codes/features/iFeature/round2/GAAC/GAAC_90_mixed_train.tsv
 
 //---------------------------------------------------
-python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_80_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_80_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_80_mixed.tsv
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type GAAC --out my_codes/features/iFeature/round2/GAAC/GAAC_80_mixed_train.tsv
 
 //---------------------------------------------------
