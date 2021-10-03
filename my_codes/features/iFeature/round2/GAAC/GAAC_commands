@@ -1,0 +1,23 @@
+//---------------------  ******** Grouped Amino Acid Composition (GAAC) ********--------------------------
+
+python iFeature.py --file my_codes/split_data/ACP_100_pos.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_100_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_100_neg.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_100_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-100.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_100_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_90_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_90_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_90_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_80_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_80_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type GAAC --out my_codes/features/iFeature/GAAC/GAAC_80_mixed.tsv
+
+//---------------------------------------------------

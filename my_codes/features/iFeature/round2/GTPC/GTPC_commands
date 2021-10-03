@@ -1,0 +1,22 @@
+//---------------------  ******** Grouped Tri-Peptide Composition (GTPC): total size: 125  descriptors  ********--------------------------
+python iFeature.py --file my_codes/split_data/ACP_100_pos.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_100_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_100_neg.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_100_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-100.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_100_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_90_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_90_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_90_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_80_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_80_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type GTPC --out my_codes/features/iFeature/GTPC/GTPC_80_mixed.tsv
+
+//---------------------------------------------------

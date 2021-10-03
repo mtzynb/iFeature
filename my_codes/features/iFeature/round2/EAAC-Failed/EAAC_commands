@@ -1,0 +1,24 @@
+//---------------------  ******** EAAC with default window size = 5 ********--------------------------
+Error: for "EAAC" encoding, the input fasta sequences should be with equal length.
+
+python iFeature.py --file my_codes/split_data/ACP_100_pos.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_100_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_100_neg.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_100_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-100.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_100_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_90_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_90_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_90_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_80_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_80_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type EAAC --out my_codes/features/iFeature/EAAC/EAAC_80_mixed.tsv
+
+//---------------------------------------------------

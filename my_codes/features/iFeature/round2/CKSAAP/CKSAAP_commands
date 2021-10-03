@@ -1,0 +1,20 @@
+//---------------------  ******** Composition of k-spaced Amino Acid Pairs (CKSAAP) with k =0 to 5, default=5 ********--------------------------
+//// Error: all the sequence length should be larger than the (gap value) + 2 = 7
+CDHIT-100 % failed ========> MIN peptide length = 3
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type CKSAAP --out my_codes/features/iFeature/CKSAAP/CKSAAP_90_pos.tsv
+
+
+python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type CKSAAP --out my_codes/features/iFeature/CKSAAP/CKSAAP_90_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type CKSAAP --out my_codes/features/iFeature/CKSAAP/CKSAAP_90_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type CKSAAP --out my_codes/features/iFeature/CKSAAP/CKSAAP_80_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type CKSAAP --out my_codes/features/iFeature/CKSAAP/CKSAAP_80_neg.tsv
+
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type CKSAAP --out my_codes/features/iFeature/CKSAAP/CKSAAP_80_mixed.tsv
+
+//---------------------------------------------------

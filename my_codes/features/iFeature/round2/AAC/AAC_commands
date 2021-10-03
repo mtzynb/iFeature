@@ -1,0 +1,10 @@
+//---------------------  ******** AAC ********--------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type AAC --out my_codes/features/iFeature/round2/AAC/AAC_100_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type AAC --out my_codes/features/iFeature/round2/AAC/AAC_90_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type AAC --out my_codes/features/iFeature/round2/AAC/AAC_80_mixed_train.tsv
+
+//---------------------------------------------------

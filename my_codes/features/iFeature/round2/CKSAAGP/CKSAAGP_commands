@@ -1,0 +1,18 @@
+//---------------------  ******** 4.9	Composition of k-Spaced Amino Acid Group Pairs (CKSAAGP) ********--------------------------
+CD-hit 100 % failed ---> Error: all the sequence length should be greater than the (gap value) + 2 = 7
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_90_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_90_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_90_mixed.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_80_pos.tsv
+
+python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_80_neg.tsv
+
+python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type CKSAAGP --out my_codes/features/iFeature/CKSAAGP/CKSAAGP_80_mixed.tsv
+
+//---------------------------------------------------
