@@ -1,0 +1,10 @@
+//  ******** Amphiphilic Pseudo-Amino Acid Composition (APAAC) (default lambda = 30)********
+default lambda = 30 but i changed it to lambda = 10
+
+total f vector: lambda + 20
+
+python codes/APAAC.py my_codes/data/mixed_data/train_mixed_100.fasta 10 my_codes/features/iFeature/round2/APseudoAAC/APseudoAAC_100_mixed_train.tsv
+
+python codes/APAAC.py my_codes/data/mixed_data/train_mixed_90.fasta 10 my_codes/features/iFeature/round2/APseudoAAC/APseudoAAC_90_mixed_train.tsv
+
+python codes/APAAC.py my_codes/data/mixed_data/train_mixed_80.fasta 10 my_codes/features/iFeature/round2/APseudoAAC/APseudoAAC_80_mixed_train.tsv
