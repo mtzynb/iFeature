@@ -1,0 +1,10 @@
+//---------------------  ******** BINARY ********--------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type BINARY --out my_codes/features/iFeature/round2/BINARY/BINARY_100_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type BINARY --out my_codes/features/iFeature/round2/BINARY/BINARY_90_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type BINARY --out my_codes/features/iFeature/round2/BINARY/BINARY_80_mixed_train.tsv
+
+//---------------------------------------------------

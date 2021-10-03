@@ -1,0 +1,14 @@
+//---------------------  ******** Composition/Transition/Distribution (CTD) ********--------------------------
+
+                                        Transition  features
+//---------------------------------------------------
+
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type CTDT --out my_codes/features/iFeature/round2/CTD/CTDT/CTDT_100_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type CTDT --out my_codes/features/iFeature/round2/CTD/CTDT/CTDT_90_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type CTDT --out my_codes/features/iFeature/round2/CTD/CTDT/CTDT_80_mixed_train.tsv
+
+//---------------------------------------------------
