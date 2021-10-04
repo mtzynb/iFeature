@@ -1,23 +1,11 @@
 //---------------------  ******** Dipeptide Deviation from Expected Mean (DDE) ********--------------------------
 
-python iFeature.py --file my_codes/split_data/ACP_100_pos.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_100_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_100_neg.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_100_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-100.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_100_mixed.tsv
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type DDE --out my_codes/features/iFeature/round2/DDE/DDE_100_mixed_train.tsv
 
 //---------------------------------------------------
-python iFeature.py --file my_codes/split_data/ACP_90_pos.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_90_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_90_neg.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_90_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-90.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_90_mixed.tsv
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type DDE --out my_codes/features/iFeature/round2/DDE/DDE_90_mixed_train.tsv
 
 //---------------------------------------------------
-python iFeature.py --file my_codes/split_data/ACP_80_pos.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_80_pos.tsv
-
-python iFeature.py --file my_codes/split_data/ACP_80_neg.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_80_neg.tsv
-
-python iFeature.py --file my_codes/data/ACP_dataset/fasta/ACP-Mixed-80.fasta --type DDE --out my_codes/features/iFeature/DDE/DDE_80_mixed.tsv
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type DDE --out my_codes/features/iFeature/round2/DDE/DDE_80_mixed_train.tsv
 
 //---------------------------------------------------

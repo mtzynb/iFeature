@@ -1,0 +1,19 @@
+//---------------------  ******** Moran correlation********--------------------------
+nlag by default is = 30 but i changed to nlag = 10
+8 AAindex property used for this descriptor :
+‘CIDH920105', 'BHAR880101',
+'CHAM820101','CHAM820102',
+'CHOC760101', 'BIGC670101',
+'CHAM810101', 'DAYM780201'
+//---------------------------------------------------
+f-vector size= AAindex properties * nlag = 8 *10 = 80
+//---------------------------------------------------
+python codes/Moran.py  --file my_codes/data/mixed_data/train_mixed_100.fasta --nlag 10 --out my_codes/features/iFeature/round2/Moran_correlation/Moran_100_mixed_train.tsv
+
+//---------------------------------------------------
+python codes/Moran.py  --file my_codes/data/mixed_data/train_mixed_90.fasta --nlag 10 --out my_codes/features/iFeature/round2/Moran_correlation/Moran_90_mixed_train.tsv
+
+//---------------------------------------------------
+python codes/Moran.py  --file my_codes/data/mixed_data/train_mixed_80.fasta --nlag 10 --out my_codes/features/iFeature/round2/Moran_correlation/Moran_80_mixed_train.tsv
+
+//---------------------------------------------------

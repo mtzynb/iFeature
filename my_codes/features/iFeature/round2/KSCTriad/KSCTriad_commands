@@ -1,0 +1,14 @@
+//---------------------  ******** k-Spaced Conjoint Triad (KSCTriad) ********--------------------------
+by default k = 0 but i changed it to 4
+f- vector = 343 * (k+1) = 1715
+//---------------------------------------------------
+
+python codes/KSCTriad.py  my_codes/data/mixed_data/train_mixed_100.fasta 4  my_codes/features/iFeature/round2/KSCTriad/KSCTriad100_mixed_train.tsv
+
+//---------------------------------------------------
+python codes/KSCTriad.py  my_codes/data/mixed_data/train_mixed_90.fasta  4 my_codes/features/iFeature/round2/KSCTriad/KSCTriad90_mixed_train.tsv
+
+//---------------------------------------------------
+python codes/KSCTriad.py  my_codes/data/mixed_data/train_mixed_80.fasta 4 my_codes/features/iFeature/round2/KSCTriad/KSCTriad80_mixed_train.tsv
+
+//---------------------------------------------------
