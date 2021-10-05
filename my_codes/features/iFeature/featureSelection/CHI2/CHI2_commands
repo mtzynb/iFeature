@@ -1,0 +1,10 @@
+//---------------------  ******** 5.6	Chi-Square feature selection (CHI2) ********--------------------------
+python feaSelector.py --file my_codes/features/iFeature/round2/AAC/AAC_100_mixed_train.tsv --type CHI2 --label my_codes/data/mixed_data/label/train_mixed_100_label.txt --out my_codes/features/iFeature/featureSelection/CHI2/AAC/CHI2_AAC_100_mixed_train.txt
+
+//---------------------------------------------------
+python feaSelector.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type CHI2 --out my_codes/features/iFeature/round2/CHI2/CHI2_90_mixed_train.tsv
+
+//---------------------------------------------------
+python feaSelector.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type CHI2 --out my_codes/features/iFeature/round2/CHI2/CHI2_80_mixed_train.tsv
+
+//---------------------------------------------------

@@ -1,0 +1,24 @@
+# Feature selection method: MIC
+# The features were ranked according to their importance, the topper the more important the feature is
+=======================
+feature	MIC-value
+K	0.187
+Q	0.102
+E	0.098
+D	0.098
+N	0.095
+A	0.083
+T	0.080
+L	0.070
+Y	0.064
+M	0.058
+C	0.058
+V	0.049
+R	0.044
+W	0.043
+S	0.033
+F	0.030
+I	0.024
+P	0.020
+G	0.012
+H	0.005

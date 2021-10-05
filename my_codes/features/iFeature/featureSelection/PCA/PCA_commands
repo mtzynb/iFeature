@@ -1,0 +1,11 @@
+//---------------------  ******** 5.10		Principal Component Analysis (PCA) ********--------------------------
+
+python scripts/pcaAnalysis.py --file my_codes/features/iFeature/round2/AAC/AAC_100_mixed_train.tsv --ncomponents 10 --out my_codes/features/iFeature/featureSelection/PCA/AAC/PCA_AAC_100_mixed_train.txt
+
+//---------------------------------------------------
+python scripts/pcaAnalysis.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type PCA --out my_codes/features/iFeature/round2/PCA/PCA_90_mixed_train.tsv
+
+//---------------------------------------------------
+python scripts/pcaAnalysis.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type PCA --out my_codes/features/iFeature/round2/PCA/PCA_80_mixed_train.tsv
+
+//---------------------------------------------------

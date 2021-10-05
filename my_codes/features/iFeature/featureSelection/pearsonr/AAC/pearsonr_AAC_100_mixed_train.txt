@@ -1,0 +1,24 @@
+# Feature selection method: pearsonr
+# The features were ranked according to their importance, the topper the more important the feature is
+=======================
+feature	pcc
+K	0.459
+L	0.244
+W	0.215
+A	0.202
+F	0.169
+I	0.046
+H	-0.008
+C	-0.041
+G	-0.075
+R	-0.107
+V	-0.124
+P	-0.180
+M	-0.193
+S	-0.196
+T	-0.201
+Y	-0.217
+N	-0.279
+Q	-0.296
+E	-0.336
+D	-0.348

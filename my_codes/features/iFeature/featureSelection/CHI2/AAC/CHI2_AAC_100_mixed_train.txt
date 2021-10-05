@@ -1,0 +1,24 @@
+# Feature selection method: CHI2
+# The features were ranked according to their importance, the topper the more important the feature is
+=======================
+feature	CHI-value
+K	236.878
+Q	140.409
+D	131.575
+N	131.287
+E	129.605
+T	111.544
+A	100.921
+L	95.089
+Y	86.588
+C	77.899
+M	77.390
+V	68.540
+R	61.183
+W	52.291
+S	47.180
+F	42.207
+I	31.756
+P	27.816
+G	16.604
+H	5.496

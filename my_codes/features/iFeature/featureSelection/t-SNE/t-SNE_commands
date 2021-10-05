@@ -1,0 +1,11 @@
+//---------------------  ******** 5.12		t-Distributed Stochastic Neighbor Embedding (t-SNE) ********--------------------------
+
+python scripts/tsneAnalysis.py  --file my_codes/features/iFeature/round2/AAC/AAC_100_mixed_train.tsv  --label my_codes/data/mixed_data/label/train_mixed_100_label.txt --out my_codes/features/iFeature/featureSelection/t-SNE/AAC/tSNE_AAC_100_mixed_train.txt
+
+//---------------------------------------------------
+python scripts/tsneAnalysis.py  --file my_codes/data/mixed_data/train_mixed_90.fasta  --out my_codes/features/iFeature/round2/t-SNE/tSNE_90_mixed_train.tsv
+
+//---------------------------------------------------
+python scripts/tsneAnalysis.py  --file my_codes/data/mixed_data/train_mixed_80.fasta  --out my_codes/features/iFeature/round2/t-SNE/tSNE_80_mixed_train.tsv
+
+//---------------------------------------------------
