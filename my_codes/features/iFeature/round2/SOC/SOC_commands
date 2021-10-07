@@ -1,0 +1,10 @@
+//---------------------  ******** Sequence-Order-Coupling Number (SOCNumber)********--------------------------
+default nlag = 30 but i changed it to nlag = 10
+
+total f vector: 20 + 30  + nlag
+
+python codes/SOCNumber.py my_codes/data/mixed_data/train_mixed_100.fasta 10 my_codes/features/iFeature/round2/SOC/SOCNumber_100_mixed_train.tsv
+
+python codes/SOCNumber.py my_codes/data/mixed_data/train_mixed_90.fasta 10 my_codes/features/iFeature/round2/SOCNumber/SOCNumber_90_mixed_train.tsv
+
+python codes/SOCNumber.py my_codes/data/mixed_data/train_mixed_80.fasta 10 my_codes/features/iFeature/round2/SOCNumber/SOCNumber_80_mixed_train.tsv

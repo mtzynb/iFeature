@@ -2,7 +2,7 @@
 also called: G-Gap dipeptide composition (g-gap DPC)
 
  all the sequence length should be larger than the (gap value) + 2 = 7
- f-vector size: 400 *6 = 2400 (for k = 0,1,2,3,4,5,6)
+ f-vector size: 400 *6 = 2400 (for k = 0,1,2,3,4,5)
 //---------------------------------------------------
 
 python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type CKSAAP --out my_codes/features/iFeature/round2/CKSAAP/CKSAAP_100_mixed_train.tsv

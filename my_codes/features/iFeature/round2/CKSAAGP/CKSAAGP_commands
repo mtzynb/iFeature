@@ -8,7 +8,7 @@ positive charge group (g3: KRH),
 negative charged group (g4: DE) and
 uncharged group (g5: STCPNQ).
 //---------------------------------------------------
- f-vector size: 25 *6 = 150 (for k = 0,1,2,3,4,5,6)
+ f-vector size: 25 *6 = 150 (for k = 0,1,2,3,4,5)
 //---------------------------------------------------
 
 python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type CKSAAGP --out my_codes/features/iFeature/round2/CKSAAGP/CKSAAGP_100_mixed_train.tsv
