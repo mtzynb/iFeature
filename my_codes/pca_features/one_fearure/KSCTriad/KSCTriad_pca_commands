@@ -1,0 +1,15 @@
+
+//---------------------  ******** KSCTriad_pca_commands ********--------------------------
+
+# ---------------------------------------
+# pca analysis on cdhit 100 train data
+python scripts/pcaAnalysis.py --file my_codes/dropped_duplication_features/one_fearure/KSCTriad/KSCTriad_100_mixed_train_dropdup.tsv --ncomponents 10 --out my_codes/pca_features/one_fearure/KSCTriad/KSCTriad_100_mixed_train_pca.tsv
+
+# ---------------------------------------
+# normalize cdhit 90 train data
+python scripts/pcaAnalysis.py --file my_codes/dropped_duplication_features/one_fearure/KSCTriad/KSCTriad_90_mixed_train_dropdup.tsv --ncomponents 10 --out my_codes/pca_features/one_fearure/KSCTriad/KSCTriad_90_mixed_train_pca.tsv
+
+# ---------------------------------------
+# normalize cdhit 80 train data
+python scripts/pcaAnalysis.py --file my_codes/dropped_duplication_features/one_fearure/KSCTriad/KSCTriad_80_mixed_train_dropdup.tsv --ncomponents 10 --out my_codes/pca_features/one_fearure/KSCTriad/KSCTriad_80_mixed_train_pca.tsv
+
