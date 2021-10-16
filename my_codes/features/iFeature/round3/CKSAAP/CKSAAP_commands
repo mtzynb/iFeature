@@ -1,0 +1,10 @@
+//---------------------  ******** Composition of k-spaced Amino Acid Pairs (CKSAAP) with k =0 to 5 ********--------------------------
+also called: G-Gap dipeptide composition (g-gap DPC)
+
+ all the sequence length should be larger than the (gap value) + 2 = 5
+ f-vector size: 400 *6 = 2400 (for k = 0,1,2,3)
+//---------------------------------------------------
+
+python codes/CKSAAP.py my_codes/data/round3/ACP_Mixed_equal_pos_neg_90.fasta 3 my_codes/features/iFeature/round3/CKSAAP/CKSAAP_90_mixed.tsv
+
+python codes/CKSAAP.py my_codes/data/round3/ACP_Mixed_equal_pos_neg_80.fasta 3 my_codes/features/iFeature/round3/CKSAAP/CKSAAP_80_mixed.tsv

@@ -1,0 +1,11 @@
+//---------------------  ******** k-Spaced Conjoint Triad (KSCTriad) ********--------------------------
+by default k = 0 but i changed it to 1
+f- vector = 343 * (k+1) = 686
+
+Error: for "KSCTriad" encoding, the input fasta sequences should be greater than (2*gap+3).
+
+//---------------------------------------------------
+
+python codes/KSCTriad.py  my_codes/data/round3/ACP_Mixed_equal_pos_neg_90.fasta  1 my_codes/features/iFeature/round3/KSCTriad/KSCTriad_90_mixed.tsv
+
+python codes/KSCTriad.py  my_codes/data/round3/ACP_Mixed_equal_pos_neg_80.fasta  1 my_codes/features/iFeature/round3/KSCTriad/KSCTriad_80_mixed.tsv

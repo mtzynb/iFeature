@@ -1,0 +1,10 @@
+//---------------------  ******** DPC ********--------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_100.fasta --type DPC --out my_codes/features/iFeature/round2/DPC/DPC_100_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_90.fasta --type DPC --out my_codes/features/iFeature/round2/DPC/DPC_90_mixed_train.tsv
+
+//---------------------------------------------------
+python iFeature.py --file my_codes/data/mixed_data/train_mixed_80.fasta --type DPC --out my_codes/features/iFeature/round2/DPC/DPC_80_mixed_train.tsv
+
+//---------------------------------------------------

@@ -1,0 +1,5 @@
+//---------------------  ******** AAC ********--------------------------
+
+python iFeature.py --file my_codes/data/round3/ACP_Mixed_equal_pos_neg_90.fasta --type AAC --out my_codes/features/iFeature/round3/AAC/AAC_90_mixed.tsv
+
+python iFeature.py --file my_codes/data/round3/ACP_Mixed_equal_pos_neg_80.fasta --type AAC --out my_codes/features/iFeature/round3/AAC/AAC_80_mixed.tsv

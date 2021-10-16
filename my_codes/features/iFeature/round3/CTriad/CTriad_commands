@@ -1,0 +1,7 @@
+//---------------------  ******** (Conjoint triad CTriad) ********--------------------------
+f- vector = 7*7*7 = 343
+
+
+python iFeature.py --file my_codes/data/round3/ACP_Mixed_equal_pos_neg_90.fasta --type CTriad --out my_codes/features/iFeature/round3/CTriad/CTriad_90_mixed.tsv
+
+python iFeature.py --file my_codes/data/round3/ACP_Mixed_equal_pos_neg_80.fasta --type CTriad --out my_codes/features/iFeature/round3/CTriad/CTriad_80_mixed.tsv
