@@ -1,0 +1,9 @@
+
+//---------------------  ******** Moran_pca_commands ********--------------------------
+# normalize cdhit 90  data
+python scripts/pcaAnalysis.py --file my_codes/dropped_duplication_features/round3/one_fearure/Moran_correlation/Moran_90_mixed_dropdup.tsv --ncomponents 10 --out my_codes/pca_features/round3/one_fearure/Moran_correlation/Moran_90_mixed_pca.tsv
+
+# ---------------------------------------
+# normalize cdhit 80  data
+python scripts/pcaAnalysis.py --file my_codes/dropped_duplication_features/round3/one_fearure/Moran_correlation/Moran_80_mixed_dropdup.tsv --ncomponents 10 --out my_codes/pca_features/round3/one_fearure/Moran_correlation/Moran_80_mixed_pca.tsv
+
