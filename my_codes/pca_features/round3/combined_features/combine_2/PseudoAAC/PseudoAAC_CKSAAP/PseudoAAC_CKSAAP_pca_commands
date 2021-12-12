@@ -1,0 +1,1 @@
+python scripts/pcaAnalysis.py --file my_codes/dropped_duplication_features/round3/combine_features/combine_2/PseudoAAC/PseudoAAC_CKSAAP/PseudoAAC_CKSAAP_combined_90_mixed_normalized_drpdup.tsv --ncomponents 10 --out my_codes/pca_features/round3/combined_features/combine_2/PseudoAAC/PseudoAAC_CKSAAP/PseudoAAC_CKSAAP_90_mixed_pca.tsv
